@@ -1,9 +1,0 @@
-{
-  "chunk": {
-    "chunk_id": "drug_painkiller_warning",
-    "title": "止痛药使用注意事项",
-    "source_type": "drug_label",
-    "evidence_level": "drug_label",
-    "content": "止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。"
-  }
-}

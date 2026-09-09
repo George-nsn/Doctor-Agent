@@ -1,3 +1,0 @@
-{
-  "content": "{\"title\":\"Neo4j + TransH 图谱扩展\",\"source\":\"guideline\",\"evidence\":\"B\",\"summary\":\"图谱扩展提示：[{\\\"head\\\": \\\"腹痛\\\", \\\"relation\\\": \\\"HAS_RED_FLAG\\\", \\\"tail\\\": \\\"便血\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}, {\\\"head\\\": \\\"腹痛\\\", \\\"relation\\\": \\\"HAS_RED_FLAG\\\", \\\"tail\\\": \\\"呕血\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}, {\\\"head\\\": \\\"右下腹痛\\\", \\\"relation\\\": \\\"MAY_INDICATE\\\", \\\"tail\\\": \\\"阑尾炎\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}]\"}"
-}
