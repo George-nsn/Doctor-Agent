@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 760,
+  "within_budget": true,
+  "packed_context": {
+    "question": "我右下腹痛，从昨晚开始，大概7分，吃了一次止痛药没什么效果，有点恶心，没有便血。",
+    "profile_card": "{\"age_group\":\"adult\",\"sex\":\"male\"}",
+    "history": [
+      {
+        "role": "user",
+        "content": "我昨天晚上开始肚子疼。"
+      },
+      {
+        "role": "assistant",
+        "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"
+      },
+      {
+        "role": "user",
+        "content": "右下腹，大概7分，有点恶心，没有便血。"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "pubmed_37327158",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 252,
+        "content": "{\"title\":\"Acute Abdominal Pain in Adults: Evaluation and Diagnosis.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available.\"}"
+      },
+      {
+        "id": "medlineplus_appendicitis",
+        "source_type": "official_reference",
+        "evidence_level": "A",
+        "tokens": 181,
+        "content": "{\"title\":\"MedlinePlus: Appendicitis\",\"source\":\"official_reference\",\"evidence\":\"A\",\"summary\":\"The appendix is a small, tube-like organ attached to the first part of the large intestine. It is located in the lower right part of the abdomen. It has no known function. A blockage inside of the appendix causes appendicitis. The blockage leads to increased pressure, problems with blood flow, and inflammation. If the blockage is not treated, the appendix can burst and spread infection into the abdomen. This causes a condition called peritonitis . The main symptom is pain in the abdomen, often on the right side. It is usually sudden and gets worse over time. Other symptoms may include: Swelling in the abdomen Loss of appetite Nausea and vomiting Constipation or diarrhea Inability to pass gas Low fever Not everyone with appendicitis has all these symptoms. Appendicitis is a medical emergency. Treatment almost always involves removing the appendix. Anyone can get appendicitis, but it is more common among people 10 to 30 years old. NIH: National Institute of Diabetes and Digestive and Kidney Diseases\"}"
+      },
+      {
+        "id": "medlineplus_appendicitis",
+        "source_type": "official_reference",
+        "evidence_level": "A",
+        "tokens": 181,
+        "content": "{\"title\":\"MedlinePlus: Appendicitis\",\"source\":\"official_reference\",\"evidence\":\"A\",\"summary\":\"The appendix is a small, tube-like organ attached to the first part of the large intestine. It is located in the lower right part of the abdomen. It has no known function. A blockage inside of the appendix causes appendicitis. The blockage leads to increased pressure, problems with blood flow, and inflammation. If the blockage is not treated, the appendix can burst and spread infection into the abdomen. This causes a condition called peritonitis . The main symptom is pain in the abdomen, often on the right side. It is usually sudden and gets worse over time. Other symptoms may include: Swelling in the abdomen Loss of appetite Nausea and vomiting Constipation or diarrhea Inability to pass gas Low fever Not everyone with appendicitis has all these symptoms. Appendicitis is a medical emergency. Treatment almost always involves removing the appendix. Anyone can get appendicitis, but it is more common among people 10 to 30 years old. NIH: National Institute of Diabetes and Digestive and Kidney Diseases\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "067c11e9cf92066dadc5ae15",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_37327158",
+        "level": "miss"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "medlineplus_appendicitis",
+        "level": "miss"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "medlineplus_appendicitis",
+        "level": "l2_disk"
+      }
+    ]
+  }
+}

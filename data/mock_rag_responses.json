@@ -1,0 +1,47 @@
+{
+  "q001": {
+    "answer": "RAG 通过先从外部知识库检索相关上下文，再把上下文交给大模型生成答案，减少模型只依赖参数化知识时的幻觉。因为答案可以绑定到可溯源的非参数化知识，系统也能随知识库更新而更新。",
+    "contexts": ["RAG 在生成前从外部知识库动态获取上下文，将参数化知识与非参数化知识融合，以降低幻觉并提升可溯源性。"],
+    "latency_ms": 18
+  },
+  "q002": {
+    "answer": "混合检索把 BM25 等稀疏关键词匹配和稠密向量语义检索结合起来。前者擅长产品型号、函数名、术语等精确匹配，后者擅长语义泛化。常见融合方式包括 RRF 和加权线性融合。",
+    "contexts": ["混合检索同时利用稀疏向量和密集向量，BM25 对专业术语匹配精确，Dense 检索泛化能力强，RRF 可融合多路结果。"],
+    "latency_ms": 21
+  },
+  "q003": {
+    "answer": "RAG Triad 可以从上下文相关性、忠实度和答案相关性三方面评估系统。上下文相关性看检索是否命中问题，忠实度看答案是否完全基于上下文，答案相关性看最终回答是否解决用户问题。",
+    "contexts": ["RAG 三元组包含上下文相关性、忠实度与答案相关性。LlamaIndex 等工具可用 LLM-as-judge 批量评估。"],
+    "latency_ms": 19
+  },
+  "q004": {
+    "answer": "如果上下文相关但答案胡编，优先优化生成环节：收紧提示词，要求引用证据，加入不知道就拒答的策略，并用忠实度评估器检查答案中的声明是否能被上下文支持。",
+    "contexts": ["忠实度评估关注生成答案是否完全基于检索上下文。格式化生成、引用证据和拒答策略可以减少 unsupported claim。"],
+    "latency_ms": 24
+  },
+  "q005": {
+    "answer": "GraphRAG 更适合关系密集、多跳推理和需要解释路径的问题，比如实体之间的因果、层级、时序或跨文档关系。它会检索实体、关系、路径或子图，而不是只检索独立文本块。",
+    "contexts": ["GraphRAG 将检索目标从文本片段转为知识图谱中的实体、关系、路径或子图，适合多跳推理和关系理解。"],
+    "latency_ms": 20
+  },
+  "q006": {
+    "answer": "上线 RAG 服务要做超时、重试、缓存、限流、结构化日志、指标监控和错误归因。高频 query 可以缓存，慢请求要记录 trace，外部模型调用要设置超时和降级策略。",
+    "contexts": ["后端稳定性措施包括超时、重试、缓存、限流、日志、监控、trace、失败恢复和成本控制。"],
+    "latency_ms": 16
+  },
+  "q007": {
+    "answer": "QueryDesigner 负责生成或读取评测问题，RAGClient 负责调用 RAGFlow 或本地 RAG API，Judge 负责评估上下文相关性、忠实度和答案相关性，最后 Optimizer 汇总失败类型并给出优化建议。",
+    "contexts": ["CrewAI harness 包含 QueryDesignerAgent、RAGClientAgent、EvidenceJudgeAgent、AnswerJudgeAgent 和 OptimizerAgent。"],
+    "latency_ms": 17
+  },
+  "q008": {
+    "answer": "因为 10 天内目标是能投递、能面试、能讲清，使用 RAGFlow 和 CrewAI 这样的成熟开源基底可以把重点放在 RAG 链路理解、Agent 评测和工程优化，而不是从零搭平台。RAGFlow 提供 RAG/Agent/MCP 平台能力，CrewAI 适合 Python 多 Agent 编排。",
+    "contexts": ["主项目选择 RAGFlow 作为 RAG 基底，CrewAI 作为 Agent harness 基底；不是从零自研大平台，而是基于已有开源仓库做工程改造。"],
+    "latency_ms": 22
+  },
+  "default": {
+    "answer": "No mock answer configured.",
+    "contexts": [],
+    "latency_ms": 10
+  }
+}

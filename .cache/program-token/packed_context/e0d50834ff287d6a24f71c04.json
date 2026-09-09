@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 826,
+  "within_budget": true,
+  "packed_context": {
+    "question": "我右下腹痛，从昨晚开始，大概7分，吃了一次止痛药没什么效果，有点恶心，没有便血。",
+    "profile_card": "{\"age_group\":\"adult\",\"sex\":\"male\"}",
+    "history": [
+      {
+        "role": "user",
+        "content": "我昨天晚上开始肚子疼。"
+      },
+      {
+        "role": "assistant",
+        "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"
+      },
+      {
+        "role": "user",
+        "content": "右下腹，大概7分，有点恶心，没有便血。"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "sqlite_chunk_371",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 176,
+        "content": "{\"title\":\"WHO-ICRC Basic Emergency Care: approach to the acutely ill and injured\",\"source\":\"guideline\",\"evidence\":\"A\",\"summary\":\"r \\n500 mg/ml)\\nGive 4 g IV (dilute to a 20% solution and give 20ml) slowly over 20 minutes \\nAND give 10 g IM: 5 g (10 ml of 50% solution) with 1 ml of 2% lidocaine in each \\nbuttock.\\n\\nIf unable to give IV, give 10 g IM injection only (as above, 5 g in each buttock).\\n\\nIf seizures/convulsions recur: after 15 minutes give additional 2 g (10 ml of 20%) IV \\nover 20 minutes.\\n\\nIf transport delayed continue: Give 5 g of 50% solution IM with 1 ml of 2% \\nlidocaine every 4h in alternate buttocks.\\n\\nEclampsia or \\nPregnant with \\nseizure/convulsion\\nNaloxone Solution: 400 mcg/ml (hydrochloride) in 1 ml ampoule\\nIV: 100 mcg single dose OR\\nIM: 400 mcg single dose\\nMay repeat every 5 minutes as needed.\\n\\nMay require 0.4 mg/hr infusion for several \\nhours for long-acting opioids.\\n\\nOpioid overdose\"}"
+      },
+      {
+        "id": "pubmed_37327158",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 252,
+        "content": "{\"title\":\"Acute Abdominal Pain in Adults: Evaluation and Diagnosis.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available.\"}"
+      },
+      {
+        "id": "pubmed_39700366",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 254,
+        "content": "{\"title\":\"Acute Abdominal Pain in Children: Evaluation and Management.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain in children is a common presentation in the clinic and emergency department settings and accounts for up to 10% of childhood emergency department visits. Determining the appropriate disposition of abdominal pain in children can be challenging. The differential diagnosis of acute abdominal pain, including gastroenteritis, constipation, urinary tract infection, acute appendicitis, tubo-ovarian abscess, testicular torsion, and volvulus, and the diagnostic approach vary by age. Most causes of acute abdominal pain in children are self-limited. Symptoms and signs that indicate referral for surgery include pain that is severe, localized, and increases in intensity; pain preceding vomiting; bilious vomiting; hematochezia; guarding; and rigidity. Physical examination findings suggestive of acute appendicitis in children include decreased or absent bowel sounds, psoas sign, obturator sign, Rovsing sign, and right lower quadrant rebound tenderness. Initial laboratory evaluation may include urinalysis; complete blood cell count; human chorionic gonadotropin, lactate, and C-reactive protein levels; and a comprehensive metabolic profile. Ultrasonography, including point-of-care ultrasonography, for the evaluation of acute abdominal pain in children is the preferred initial imaging modality due to its low cost, ease of use, and lack of ionizing radiation. In addition to laboratory evaluation and imaging, children with red-flag or high-risk symptoms should be referred for urgent surgical consultation. Validated scoring systems, such as the Pediatric Appendicitis Score, can be used to help determine the patient's risk of appendicitis.\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "e0d50834ff287d6a24f71c04",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "sqlite_chunk_371",
+        "level": "miss"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_37327158",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_39700366",
+        "level": "miss"
+      }
+    ]
+  }
+}

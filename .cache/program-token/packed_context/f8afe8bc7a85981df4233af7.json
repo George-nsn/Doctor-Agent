@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 843,
+  "within_budget": true,
+  "packed_context": {
+    "question": "我右下腹痛，从昨晚开始，大概7分，吃了一次止痛药没什么效果，有点恶心，没有便血。",
+    "profile_card": "{\"age_group\":\"adult\",\"sex\":\"male\"}",
+    "history": [
+      {
+        "role": "user",
+        "content": "我昨天晚上开始肚子疼。"
+      },
+      {
+        "role": "assistant",
+        "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"
+      },
+      {
+        "role": "user",
+        "content": "右下腹，大概7分，有点恶心，没有便血。"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "pubmed_37327158",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 252,
+        "content": "{\"title\":\"Acute Abdominal Pain in Adults: Evaluation and Diagnosis.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available.\"}"
+      },
+      {
+        "id": "pubmed_39700366",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 254,
+        "content": "{\"title\":\"Acute Abdominal Pain in Children: Evaluation and Management.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain in children is a common presentation in the clinic and emergency department settings and accounts for up to 10% of childhood emergency department visits. Determining the appropriate disposition of abdominal pain in children can be challenging. The differential diagnosis of acute abdominal pain, including gastroenteritis, constipation, urinary tract infection, acute appendicitis, tubo-ovarian abscess, testicular torsion, and volvulus, and the diagnostic approach vary by age. Most causes of acute abdominal pain in children are self-limited. Symptoms and signs that indicate referral for surgery include pain that is severe, localized, and increases in intensity; pain preceding vomiting; bilious vomiting; hematochezia; guarding; and rigidity. Physical examination findings suggestive of acute appendicitis in children include decreased or absent bowel sounds, psoas sign, obturator sign, Rovsing sign, and right lower quadrant rebound tenderness. Initial laboratory evaluation may include urinalysis; complete blood cell count; human chorionic gonadotropin, lactate, and C-reactive protein levels; and a comprehensive metabolic profile. Ultrasonography, including point-of-care ultrasonography, for the evaluation of acute abdominal pain in children is the preferred initial imaging modality due to its low cost, ease of use, and lack of ionizing radiation. In addition to laboratory evaluation and imaging, children with red-flag or high-risk symptoms should be referred for urgent surgical consultation. Validated scoring systems, such as the Pediatric Appendicitis Score, can be used to help determine the patient's risk of appendicitis.\"}"
+      },
+      {
+        "id": "pubmed_18441863",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 192,
+        "content": "{\"title\":\"Evaluation of acute abdominal pain in adults.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain can represent a spectrum of conditions from benign and self-limited disease to surgical emergencies. Evaluating abdominal pain requires an approach that relies on the likelihood of disease, patient history, physical examination, laboratory tests, and imaging studies. The location of pain is a useful starting point and will guide further evaluation. For example, right lower quadrant pain strongly suggests appendicitis. Certain elements of the history and physical examination are helpful (e.g., constipation and abdominal distension strongly suggest bowel obstruction), whereas others are of little value (e.g., anorexia has little predictive value for appendicitis). The American College of Radiology has recommended different imaging studies for assessing abdominal pain based on pain location. Ultrasonography is recommended to assess right upper quadrant pain, and computed tomography is recommended for right and left lower quadrant pain. It is also important to consider special populations such as women, who are at risk of genitourinary disease, which may cause abdominal pain; and the elderly, who may present with atypical symptoms of a disease.\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "f8afe8bc7a85981df4233af7",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_37327158",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_39700366",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_18441863",
+        "level": "miss"
+      }
+    ]
+  }
+}

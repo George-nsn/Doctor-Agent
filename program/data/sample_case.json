@@ -1,0 +1,17 @@
+{
+  "session_id": "demo-session-001",
+  "user_id": "demo-user",
+  "message": "我右下腹痛，从昨晚开始，大概7分，吃了一次止痛药没什么效果，有点恶心，没有便血。",
+  "profile": {
+    "age_group": "adult",
+    "sex": "male",
+    "allergies": [],
+    "chronic_conditions": [],
+    "long_term_medications": []
+  },
+  "history": [
+    {"role": "user", "content": "我昨天晚上开始肚子疼。"},
+    {"role": "assistant", "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"},
+    {"role": "user", "content": "右下腹，大概7分，有点恶心，没有便血。"}
+  ]
+}

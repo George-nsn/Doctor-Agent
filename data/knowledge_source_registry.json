@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "governance_note": "Authority tier and clinical evidence grade are separate. Expert consensus is not automatically Grade A evidence.",
+  "authority_tiers": {
+    "A1": "国家卫生主管部门、国家药监机构、WHO 等正式指南或监管记录",
+    "A2": "全国性医学会/专科分会正式指南或专家共识；须核验版本与版权",
+    "B1": "系统综述、高质量研究、医院官方专业资料",
+    "C1": "授权医学教材、经典工具书和基础机理资料",
+    "D1": "一般科普或普通网页，只作低权重补充"
+  },
+  "sources": [
+    {
+      "slug": "cn_nhc",
+      "name": "国家卫生健康委员会诊疗规范与指南目录",
+      "publisher": "中华人民共和国国家卫生健康委员会",
+      "base_url": "https://www.nhc.gov.cn/",
+      "source_category": "national_clinical_guideline",
+      "jurisdiction": "CN",
+      "authority_tier": "A1",
+      "ingestion_policy": "metadata_first_full_text_only_when_reuse_permitted",
+      "rights_status": "record_specific_review_required",
+      "specialties": ["internal_medicine", "surgery", "gynecology", "pediatrics", "dermatology", "gastroenterology"],
+      "license_name": "按具体政府信息公开页面和附件权利声明审核",
+      "license_url": "https://www.nhc.gov.cn/",
+      "attribution": "来源：中华人民共和国国家卫生健康委员会。",
+      "terms_url": "https://www.nhc.gov.cn/"
+    },
+    {
+      "slug": "cn_nmpa",
+      "name": "国家药品监督管理局药品与说明书目录",
+      "publisher": "国家药品监督管理局",
+      "base_url": "https://www.nmpa.gov.cn/",
+      "source_category": "national_regulatory_drug_database",
+      "jurisdiction": "CN",
+      "authority_tier": "A1",
+      "ingestion_policy": "metadata_first_authorized_label_import",
+      "rights_status": "record_specific_review_required",
+      "specialties": ["pharmacology"],
+      "license_name": "按具体药品记录、说明书来源和网站使用条款审核",
+      "license_url": "https://www.nmpa.gov.cn/",
+      "attribution": "来源：国家药品监督管理局。",
+      "terms_url": "https://www.nmpa.gov.cn/"
+    },
+    {
+      "slug": "cn_medical_society",
+      "name": "全国医学会临床指南与专家共识目录",
+      "publisher": "中华医学会及各专科分会等发布机构",
+      "base_url": "https://www.cma.org.cn/",
+      "source_category": "medical_society_guideline_consensus",
+      "jurisdiction": "CN",
+      "authority_tier": "A2",
+      "ingestion_policy": "metadata_only_or_licensed_local_import",
+      "rights_status": "copyright_or_record_specific",
+      "specialties": ["internal_medicine", "surgery", "gynecology", "pediatrics", "dermatology", "gastroenterology"],
+      "license_name": "通常受著作权保护；全文需出版方或权利人授权",
+      "license_url": "https://www.cma.org.cn/",
+      "attribution": "按具体指南、期刊和发布机构要求署名。",
+      "terms_url": "https://www.cma.org.cn/"
+    },
+    {
+      "slug": "licensed_medical_textbooks",
+      "name": "授权医学教材与临床工具书",
+      "publisher": "用户合法授权的医学出版机构或内容提供方",
+      "base_url": "local://licensed-medical-textbooks",
+      "source_category": "medical_textbook_reference",
+      "jurisdiction": "CN",
+      "authority_tier": "C1",
+      "ingestion_policy": "licensed_local_import_only",
+      "rights_status": "license_proof_required",
+      "specialties": ["basic_medicine", "internal_medicine", "surgery", "gynecology", "pediatrics", "pharmacology", "pathophysiology"],
+      "license_name": "必须提供可用于本项目处理、索引和展示的授权依据",
+      "license_url": "local://license-proof",
+      "attribution": "按出版社、作者和授权协议要求署名。",
+      "terms_url": "local://license-proof"
+    }
+  ]
+}

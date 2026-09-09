@@ -1,0 +1,374 @@
+{
+  "source_metadata": {
+    "generated_at": "2026-07-07T10:07:20Z",
+    "evidence_policy": "Level A means official public source in this MVP dataset: NIH/NLM MedlinePlus or FDA SPL labels via openFDA.",
+    "document_count": 12,
+    "sources": [
+      {
+        "name": "MedlinePlus Health Topic XML",
+        "publisher": "National Library of Medicine / National Institutes of Health",
+        "url": "https://medlineplus.gov/xml.html"
+      },
+      {
+        "name": "openFDA Drug Labeling API",
+        "publisher": "U.S. Food and Drug Administration",
+        "url": "https://open.fda.gov/apis/drug/label/"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "id": "medlineplus_abdominal_pain",
+      "title": "MedlinePlus: Abdominal Pain",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "gastroenterology",
+      "published_at": "2003-01-07",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "Your abdomen extends from below your chest to your groin. Some people call it the stomach, but your abdomen contains many other important organs. Pain in the abdomen can come from any one of them. The pain may start somewhere else, such as your chest. Severe pain doesn't always mean a serious problem. Nor does mild pain mean a problem is not serious. Call your health care provider if mild pain lasts a week or more or if you have pain with other symptoms. Get medical help immediately if: You have abdominal pain that is sudden and sharp You also have pain in your chest, neck or shoulder You're vomiting blood or have blood in your stool Your abdomen is stiff, hard and tender to touch You can't move your bowels, especially if you're also vomiting",
+      "entities": [
+        "便血",
+        "呕吐",
+        "急腹症",
+        "腹痛"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/abdominalpain.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_appendicitis",
+      "title": "MedlinePlus: Appendicitis",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "gastroenterology",
+      "published_at": "2000-06-07",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "The appendix is a small, tube-like organ attached to the first part of the large intestine. It is located in the lower right part of the abdomen. It has no known function. A blockage inside of the appendix causes appendicitis. The blockage leads to increased pressure, problems with blood flow, and inflammation. If the blockage is not treated, the appendix can burst and spread infection into the abdomen. This causes a condition called peritonitis . The main symptom is pain in the abdomen, often on the right side. It is usually sudden and gets worse over time. Other symptoms may include: Swelling in the abdomen Loss of appetite Nausea and vomiting Constipation or diarrhea Inability to pass gas Low fever Not everyone with appendicitis has all these symptoms. Appendicitis is a medical emergency. Treatment almost always involves removing the appendix. Anyone can get appendicitis, but it is more common among people 10 to 30 years old. NIH: National Institute of Diabetes and Digestive and Kidney Diseases",
+      "entities": [
+        "发热",
+        "右下腹痛",
+        "呕吐",
+        "恶心",
+        "腹痛",
+        "阑尾炎"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/appendicitis.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_chest_pain",
+      "title": "MedlinePlus: Chest Pain",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "cardiology",
+      "published_at": "2008-07-16",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "Having a pain in your chest can be scary. It does not always mean that you are having a heart attack . There can be many other causes, including: Other heart problems, such as angina Panic attacks Digestive problems, such as heartburn or esophagus disorders Sore muscles Lung diseases, such as pneumonia , pleurisy , or pulmonary embolism Costochondritis - an inflammation of joints in your chest Some of these problems can be serious. Get immediate medical care if you have chest pain that does not go away, crushing pain or pressure in the chest, or chest pain along with nausea, sweating, dizziness or shortness of breath. Treatment depends on the cause of the pain.",
+      "entities": [
+        "出汗",
+        "呼吸困难",
+        "心肌梗死",
+        "恶心",
+        "肺栓塞",
+        "胸痛"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/chestpain.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_fever",
+      "title": "MedlinePlus: Fever",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "general_practice",
+      "published_at": "2000-01-05",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C). A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection. Infections cause most fevers. You get a fever because your body is trying to kill the virus or bacteria that caused the infection. Most of those bacteria and viruses do well when your body is at your normal temperature. But if you have a fever, it is harder for them to survive. Fever also activates your body's immune system. Other causes of fevers include: Medicines, including some antibiotics , blood pressure medicines , and anti-seizure medicines Heat illness Cancers Autoimmune diseases Some childhood vaccines Treatment depends on the cause of your fever. If the fever is very high, your health care provider may recommend taking an over-the-counter medicine such as acetaminophen or ibuprofen. Adults can also take aspirin, but children with fevers should not take aspirin. It is also important to drink enough liquids, to prevent dehydration .",
+      "entities": [
+        "发热",
+        "对乙酰氨基酚",
+        "布洛芬",
+        "持续高热",
+        "阿司匹林"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/fever.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_gastrointestinal_bleeding",
+      "title": "MedlinePlus: Gastrointestinal Bleeding",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "gastroenterology",
+      "published_at": "2000-06-20",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "Your digestive or gastrointestinal (GI) tract includes the esophagus, stomach, small intestine, large intestine or colon, rectum, and anus. Bleeding can come from any of these areas. The amount of bleeding can be so small that only a lab test can find it. Signs of bleeding in the digestive tract depend on where it is and how much bleeding there is. Signs of bleeding in the upper digestive tract include: Bright red blood in vomit Vomit that looks like coffee grounds Black or tarry stool Dark blood mixed with stool Signs of bleeding in the lower digestive tract include: Black or tarry stool Dark blood mixed with stool Stool mixed or coated with bright red blood GI bleeding is not a disease, but a symptom of a disease. There are many possible causes of GI bleeding, including hemorrhoids , peptic ulcers , tears or inflammation in the esophagus, diverticulosis and diverticulitis , ulcerative colitis and Crohn's disease , colonic polyps , or cancer in the colon , stomach or esophagus . The test used most often to look for the cause of GI bleeding is called endoscopy . It uses a flexible instrument inserted through the mouth or rectum to view the inside of the GI tract. A type of endoscopy called colonoscopy looks at the large intestine. NIH: National Institute of Diabetes and Digestive and Kidney Diseases",
+      "entities": [
+        "便血",
+        "呕血",
+        "消化道出血",
+        "黑便"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/gastrointestinalbleeding.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_heart_attack",
+      "title": "MedlinePlus: Heart Attack",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "cardiology",
+      "published_at": "1998-10-22",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "Each year almost 800,000 Americans have a heart attack. A heart attack happens when blood flow to the heart suddenly becomes blocked. Without the blood coming in, the heart can't get oxygen. If not treated quickly, the heart muscle begins to die. But if you do get quick treatment, you may be able to prevent or limit damage to the heart muscle. That's why it's important to know the symptoms of a heart attack and call 911 if you or someone else is having them. You should call, even if you are not sure that it is a heart attack. The most common symptoms in men and women are: Chest discomfort. It is often in center or left side of the chest. It usually lasts more than a few minutes. It may go away and come back. It can feel like pressure, squeezing, fullness, or pain . It also can feel like heartburn or indigestion. Shortness of breath. Sometimes this is your only symptom. You may get it before or during the chest discomfort. It can happen when you are resting or doing a little bit of physical activity. Discomfort in the upper body. You may feel pain or discomfort in one or both arms, the back, shoulders, neck, jaw, or upper part of the stomach. You may also have other symptoms, such as nausea, vomiting, dizziness, and lightheadedness. You may break out in a cold sweat. Sometimes women will have different symptoms then men. For example, they are more likely to feel tired for no reason. The most common cause of heart attacks is coronary artery disease (CAD). With CAD, there is a buildup of cholesterol and other material, called plaque, on their inner walls or the arteries. This is atherosclerosis . It can build up for years. Eventually an area of plaque can rupture (break open). A blood clot can form around the plaque and block the artery. A less common cause of heart attack is a severe spasm (tightening) of a coronary artery. The spasm cuts off blood flow through the artery. At the hospital, health care providers make a diagnosis based on your symptoms, blood tests, and different heart health tests . Treatments may include medicines and medical procedures such as coronary angioplasty . After a heart attack, cardiac rehabilitation and lifestyle changes can help you recover. NIH: National Heart, Lung, and Blood Institute",
+      "entities": [
+        "出汗",
+        "呕吐",
+        "呼吸困难",
+        "心肌梗死",
+        "恶心",
+        "胸痛"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/heartattack.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_nausea_and_vomiting",
+      "title": "MedlinePlus: Nausea and Vomiting",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "gastroenterology",
+      "published_at": "1999-10-20",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "What are nausea and vomiting? Nausea is when you feel sick to your stomach, as if you are going to throw up. Vomiting is when you throw up. What causes nausea and vomiting? Nausea and vomiting can be symptoms of many different conditions, including: Morning sickness during pregnancy Gastroenteritis (infection of your intestines) and other infections Migraines Motion sickness Food poisoning Medicines, including those for cancer chemotherapy GERD (reflux) and ulcers Intestinal obstruction When do I need to see a health care provider for nausea and vomiting? Nausea and vomiting are common. They are usually not serious. However, you should contact your health care provider immediately if you have: A reason to think that your vomiting is from poisoning Vomited for longer than 24 hours Blood in the vomit Severe abdominal pain Severe headache and stiff neck Signs of dehydration , such as dry mouth, infrequent urination or dark urine How is the cause of nausea and vomiting diagnosed? Your health care provider will take your medical history, ask about your symptoms and do a physical exam. The provider will look for signs of dehydration. You may have some tests, including blood and urine tests. Women may also have a pregnancy test. What are the treatments for nausea and vomiting? Treatments for nausea and vomiting depend on the cause. You may get treatment for the underlying problem. There are some medicines that can treatment nausea and vomiting. For severe cases of vomiting, you may need extra fluids through an IV (intravenous). There are things that you can do to feel better: Get enough fluids, to avoid dehydration. If you are having trouble keeping liquids down, drink small amounts of clear liquids often. Eat bland foods; stay away from spicy, fatty, or salty foods Eat smaller meals more often Avoid strong smells, since they can sometimes trigger nausea and vomiting If you are pregnant and have morning sickness, eat crackers before you get out of bed in the morning",
+      "entities": [
+        "呕吐",
+        "恶心",
+        "腹痛"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/nauseaandvomiting.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "medlineplus_pulmonary_embolism",
+      "title": "MedlinePlus: Pulmonary Embolism",
+      "source_type": "official_reference",
+      "evidence_level": "A",
+      "department": "respiratory",
+      "published_at": "2000-01-18",
+      "trust_score": 0.96,
+      "freshness_score": 0.88,
+      "content": "What is a pulmonary embolism (PE)? A pulmonary embolism (PE) is a sudden blockage in a lung artery. It usually happens when a blood clot breaks loose and travels through the bloodstream to the lungs. PE is a serious condition that can cause: Permanent damage to the lungs Low oxygen levels in your blood Damage to other organs in your body from not getting enough oxygen PE can be life-threatening, especially if a clot is large, or if there are many clots. What causes a pulmonary embolism (PE)? The cause is usually a blood clot that breaks loose and travels through the bloodstream to the lungs. The clot is usually a deep vein thrombosis (DVT), a clot in the leg. In rare cases, material such as air bubbles, clumps of fat, or parts of a tumor can block the lung artery and cause PE. Who is more likely to develop a pulmonary embolism (PE)? Anyone can get a pulmonary embolism (PE), but certain things can raise your risk of PE: Having surgery, especially joint replacement surgery. Certain medical conditions, including Cancers Heart diseases Lung diseases A broken hip or leg bone or other trauma Hormone-based medicines, such as birth control pills or hormone replacement therapy . Pregnancy and childbirth. The risk is highest for about six weeks after childbirth. Not moving for long periods, such as being on bed rest, having a cast, or taking a long plane flight. Age. Your risk increases as you get older, especially after age 40. Family history and genetics. Certain genetic changes that can increase your risk of blood clots and PE. Obesity . What are the symptoms of a pulmonary embolism (PE)? Symptoms of PE include: Shortness of breath Rapid breathing Chest pain or discomfort, which usually gets worse when you cough or take a deep breath Increased heart rate Coughing up blood Very low blood pressure, lightheadedness, or fainting Sometimes people with PE don't have any symptoms until they have serious complications, such as pulmonary hypertension (high blood pressure in the arteries to your lungs). How is a pulmonary embolism (PE) diagnosed? It can be difficult to diagnose PE. To find out if you have a PE, your health care provider will: Take your medical history, including asking about your symptoms and risk factors for PE Do a physical exam Likely order some tests, including various imaging and blood tests What are the treatments for a pulmonary embolism (PE)? If you have PE, you need medical treatment right away. The goal of treatment is to break up clots and help keep other clots from forming. Treatment options include medicines and procedures. Medicines : Anticoagulants, or blood thinners , keep blood clots from getting larger and stop new clots from forming. You might get them as an injection, a pill, or through an I.V. (intravenous). They can cause bleeding, especially if you are taking other medicines that also thin your blood, such as aspirin. Thrombolytics are medicines to dissolve blood clots. You may get them if you have large clots that cause severe symptoms or other serious complications. Thrombolytics can cause sudden bleeding, so they are used if your PE is serious and may be life-threatening. Procedures : Catheter-assisted thrombus removal uses a flexible tube to reach a blood clot in your lung. Your health care provider can insert a tool in the tube to break up the clot or to deliver medicine through the tube. Usually you will get medicine to put you to sleep for this procedure. A vena cava filter may be used in some people who cannot take blood thinners. Your health care provider inserts a filter inside a large vein called the vena cava. The filter catches blood clots before they travel to the lungs, which prevents pulmonary embolism. But the filter does not stop new blood clots from forming. Can pulmonary embolism (PE) be prevented? Preventing new blood clots can prevent PE. Prevention may include: Continuing to take blood thinners. It's also important to get regular checkups with your provider, to make sure that the dosage of your medicines is working to prevent blood clots but not causing bleeding. Heart-healthy lifestyle changes, such as heart-healthy eating, exercise, and, if you smoke, quitting smoking . Using compression stockings to prevent deep vein thrombosis (DVT). Moving your legs when sitting for long periods of time (such as on long trips). Moving around as soon as possible after surgery or being confined to a bed. NIH: National Heart, Lung, and Blood Institute",
+      "entities": [
+        "呼吸困难",
+        "肺栓塞",
+        "胸痛",
+        "阿司匹林"
+      ],
+      "source_name": "MedlinePlus / National Library of Medicine",
+      "source_url": "https://medlineplus.gov/pulmonaryembolism.html",
+      "source_note": "Official NIH/NLM health topic XML. For patient education and triage support, not a substitute for professional care."
+    },
+    {
+      "id": "openfda_label_ibuprofen",
+      "title": "openFDA drug label: IBUPROFEN",
+      "source_type": "drug_label",
+      "evidence_level": "A",
+      "department": "pharmacology",
+      "published_at": "2026-07-07",
+      "trust_score": 0.93,
+      "freshness_score": 0.9,
+      "content": "Indications and usage: Uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps the common cold muscular aches minor pain of arthritis temporarily reduces fever\nWarnings: Warnings Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include: rash facial swelling asthma (wheezing) hives skin reddening shock blisters If an allergic reaction occurs, stop use and seek medical help right away. Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: take more or for a longer time than directed take a blood thinning (anticoagulant) or steroid drug have had stomach ulcers or bleeding problems have 3 or more alcoholic drinks every day while using this product are age 60 or older take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] Heart attack and stroke warning: NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed. Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery Ask a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke you are taking a diuretic you have problems or serious side effects from taking pain relievers or fever reducers Ask a doctor or pharmacist before use if you are under a doctor's care for any serious condition taking aspirin for heart attack or stroke, because ibuprofen may decrease this benefit of aspirin taking any other drug When using this product take with food or milk if stomach upset occurs Stop use and ask a doctor if you experience any of the following signs of stomach bleeding: feel faint have bloody or black stools vomit blood have stomach pain that does not get better you have symptoms of heart problems or stroke: chest pain slurred speech trouble breathing leg swelling weakness in one part or side of body pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days redness or swelling is present in the painful area any new symptoms appear If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use ibuprofen at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+      "entities": [
+        "出血",
+        "发热",
+        "布洛芬",
+        "心肌梗死",
+        "消化道溃疡",
+        "肝损伤",
+        "胸痛",
+        "腹痛",
+        "阿司匹林"
+      ],
+      "source_name": "openFDA Drug Labeling API / FDA SPL",
+      "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22IBUPROFEN%22&limit=1",
+      "source_note": "FDA SPL drug labeling converted by openFDA. Check current approved labeling and consult clinicians for care decisions."
+    },
+    {
+      "id": "openfda_label_acetaminophen",
+      "title": "openFDA drug label: ACETAMINOPHEN",
+      "source_type": "drug_label",
+      "evidence_level": "A",
+      "department": "pharmacology",
+      "published_at": "2026-07-07",
+      "trust_score": 0.93,
+      "freshness_score": 0.9,
+      "content": "Indications and usage: Uses temporarily relieves minor aches and pains due to: headache the common cold backache minor pain of arthritis toothache muscular aches premenstrual and menstrual cramps temporarily reduces fever\nWarnings: Warnings Liver warning: This product contains acetaminophen. Severe liver damage may occur if you take more than 4,000 mg of acetaminophen in 24 hours with other drugs containing acetaminophen 3 or more alcoholic drinks every day while using this product Allergy alert: Acetaminophen may cause severe skin reactions. Symptoms may include: skin reddening blisters rash If a skin reaction occurs, stop use and seek medical help right away. Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. Ask a doctor before use if you have liver disease. Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin. Stop use and ask a doctor if new symptoms occur pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days redness or swelling is present These could be signs of a serious condition. If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. Prompt medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.",
+      "entities": [
+        "发热",
+        "对乙酰氨基酚",
+        "肝损伤"
+      ],
+      "source_name": "openFDA Drug Labeling API / FDA SPL",
+      "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22ACETAMINOPHEN%22&limit=1",
+      "source_note": "FDA SPL drug labeling converted by openFDA. Check current approved labeling and consult clinicians for care decisions."
+    },
+    {
+      "id": "openfda_label_omeprazole",
+      "title": "openFDA drug label: OMEPRAZOLE",
+      "source_type": "drug_label",
+      "evidence_level": "A",
+      "department": "pharmacology",
+      "published_at": "2026-07-07",
+      "trust_score": 0.93,
+      "freshness_score": 0.9,
+      "content": "Indications and usage: Use(s) treats frequent heartburn (occurs 2 or more days a week) not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nWarnings: Warnings Allergy alert: do not use if you are allergic to omeprazole omeprazole may cause severe skin reactions. Symptoms may include: skin reddening blisters rash If an allergic reaction occurs, stop use and seek medical help right away. Do not use if you have: trouble or pain swallowing food, vomiting with blood, or bloody or black stools heartburn with lightheadedness, sweating or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadednes frequent chest pain These may be signs of a serious condition. See your doctor. Ask a doctor before use if you have : had heartburn over 3 months. This may be a sign of a more serious condition. frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain Ask a doctor or pharmacist before use if you are taking a prescription drug. Acid reducers may interact with certain prescription drugs. Stop use and ask doctor if: your heartburn continues or worsens you need to take this product for more than 14 days you need to take more than 1 course of treatment every 4 months you get diarrhea you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222)",
+      "entities": [
+        "呕吐",
+        "呼吸困难",
+        "奥美拉唑",
+        "恶心",
+        "胸痛",
+        "腹痛"
+      ],
+      "source_name": "openFDA Drug Labeling API / FDA SPL",
+      "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22OMEPRAZOLE%22&limit=1",
+      "source_note": "FDA SPL drug labeling converted by openFDA. Check current approved labeling and consult clinicians for care decisions."
+    },
+    {
+      "id": "openfda_label_aspirin",
+      "title": "openFDA drug label: ASPIRIN",
+      "source_type": "drug_label",
+      "evidence_level": "A",
+      "department": "pharmacology",
+      "published_at": "2026-07-07",
+      "trust_score": 0.93,
+      "freshness_score": 0.9,
+      "content": "Indications and usage: Uses for the temporary relief of minor aches and pains or as recommended by your doctor. Because of its delayed action, this product will not provide fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for safety coated 81 mg aspirin\nWarnings: Warnings Reye's syndrome : Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness. Allergy alert : Aspirin may cause a severe allergic reaction, which may include: hives facial swelling shock asthma (wheezing) Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: are age 60 or older have had stomach ulcers or bleeding problems take a blood thinning (anticoagulant) or steroid drug take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] have 3 or more alcoholic drinks every day while using this product take more or for a longer time than directed Do not use if you are allergic to aspirin or any other pain reliever/fever reducer. if you have ever had an allergic reaction to his product or any of its ingredients Ask a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma Ask a doctor or pharmacist before use if you are taking a prescription drug for gout diabetes arthritis Stop use and ask a doctor if an allergic reaction occurs. Seek medical help right away. you experience any of the following signs of stomach bleeding: feel faint vomit blood have bloody or black stool have stomach pain that does not get better pain gets worse or lasts more than 10 days redness or swelling is present ringing in the ears or loss of hearing occurs new symptoms occur These could be signs of a serious condition If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+      "entities": [
+        "出血",
+        "发热",
+        "呕吐",
+        "布洛芬",
+        "恶心",
+        "消化道溃疡",
+        "肝损伤",
+        "腹痛",
+        "阿司匹林"
+      ],
+      "source_name": "openFDA Drug Labeling API / FDA SPL",
+      "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22ASPIRIN%22&limit=1",
+      "source_note": "FDA SPL drug labeling converted by openFDA. Check current approved labeling and consult clinicians for care decisions."
+    }
+  ],
+  "graph": [
+    [
+      "胸痛",
+      "HAS_RED_FLAG",
+      "呼吸困难"
+    ],
+    [
+      "胸痛",
+      "HAS_RED_FLAG",
+      "出汗"
+    ],
+    [
+      "胸痛",
+      "MAY_INDICATE",
+      "心肌梗死"
+    ],
+    [
+      "胸痛",
+      "MAY_INDICATE",
+      "肺栓塞"
+    ],
+    [
+      "腹痛",
+      "HAS_RED_FLAG",
+      "便血"
+    ],
+    [
+      "腹痛",
+      "HAS_RED_FLAG",
+      "呕血"
+    ],
+    [
+      "右下腹痛",
+      "MAY_INDICATE",
+      "阑尾炎"
+    ],
+    [
+      "布洛芬",
+      "HAS_ADVERSE_EFFECT",
+      "胃肠道出血"
+    ],
+    [
+      "布洛芬",
+      "REQUIRES_CAUTION",
+      "消化道溃疡"
+    ],
+    [
+      "阿司匹林",
+      "HAS_ADVERSE_EFFECT",
+      "胃肠道出血"
+    ],
+    [
+      "对乙酰氨基酚",
+      "REQUIRES_CAUTION",
+      "肝损伤"
+    ]
+  ],
+  "dictionary": {
+    "肚子疼": "腹痛",
+    "右下腹疼": "右下腹痛",
+    "止疼药": "止痛药",
+    "AMI": "急性心肌梗死",
+    "心梗": "心肌梗死",
+    "喘不上气": "呼吸困难",
+    "气短": "呼吸困难",
+    "黑便": "便血",
+    "abdominal pain": "腹痛",
+    "Abdominal Pain": "腹痛",
+    "bellyache": "腹痛",
+    "stomach pain": "腹痛",
+    "chest pain": "胸痛",
+    "Chest Pain": "胸痛",
+    "heart attack": "心肌梗死",
+    "Heart Attack": "心肌梗死",
+    "myocardial infarction": "心肌梗死",
+    "shortness of breath": "呼吸困难",
+    "Shortness of Breath": "呼吸困难",
+    "pulmonary embolism": "肺栓塞",
+    "Pulmonary Embolism": "肺栓塞",
+    "appendicitis": "阑尾炎",
+    "Appendicitis": "阑尾炎",
+    "fever": "发热",
+    "Fever": "发热",
+    "nausea": "恶心",
+    "vomiting": "呕吐",
+    "gastrointestinal bleeding": "消化道出血",
+    "blood in your stool": "便血",
+    "Ibuprofen": "布洛芬",
+    "ibuprofen": "布洛芬",
+    "Acetaminophen": "对乙酰氨基酚",
+    "acetaminophen": "对乙酰氨基酚",
+    "Omeprazole": "奥美拉唑",
+    "omeprazole": "奥美拉唑",
+    "Aspirin": "阿司匹林",
+    "aspirin": "阿司匹林"
+  }
+}

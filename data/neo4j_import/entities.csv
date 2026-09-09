@@ -1,0 +1,17 @@
+﻿entity_id:ID(Entity),name,entity_type,language,aliases,:LABEL
+12,腹痛,Symptom,zh-en,"[""abdominal pain"", ""stomach pain"", ""腹痛""]",Symptom
+15,胸痛,Symptom,zh-en,"[""chest discomfort"", ""chest pain"", ""胸痛""]",Symptom
+16,阿司匹林,Drug,zh-en,"[""aspirin"", ""阿司匹林""]",Drug
+18,心肌梗死,Disease,zh-en,"[""AMI"", ""heart attack"", ""myocardial infarction"", ""心梗"", ""心肌梗死""]",Disease
+19,肺栓塞,Disease,zh-en,"[""PE"", ""pulmonary embolism"", ""肺栓塞""]",Disease
+20,呼吸困难,Symptom,zh-en,"[""breathing difficulty"", ""difficulty breathing"", ""shortness of breath"", ""呼吸困难"", ""气短""]",Symptom
+21,出汗,Symptom,zh-en,"[""cold sweat"", ""sweating"", ""出汗""]",Symptom
+24,对乙酰氨基酚,Drug,zh-en,"[""acetaminophen"", ""paracetamol"", ""对乙酰氨基酚""]",Drug
+28,阑尾炎,Disease,zh-en,"[""appendicitis"", ""阑尾炎""]",Disease
+29,布洛芬,Drug,zh-en,"[""ibuprofen"", ""布洛芬""]",Drug
+30,肝损伤,ClinicalState,zh-en,"[""hepatotoxicity"", ""liver damage"", ""liver injury"", ""肝损伤""]",ClinicalState
+33,便血,Symptom,zh-en,"[""blood in stool"", ""bloody stool"", ""便血""]",Symptom
+35,呕血,Symptom,zh-en,"[""haematemesis"", ""hematemesis"", ""vomiting blood"", ""呕血""]",Symptom
+37,右下腹痛,Symptom,zh-en,"[""RLQ pain"", ""right lower abdominal pain"", ""right lower quadrant pain"", ""右下腹痛""]",Symptom
+39,胃肠道出血,ClinicalState,zh-en,"[""GI bleeding"", ""gastrointestinal bleeding"", ""stomach bleeding"", ""胃肠道出血""]",ClinicalState
+43,消化道溃疡,Disease,zh-en,"[""peptic ulcer"", ""stomach ulcer"", ""消化道溃疡""]",Disease

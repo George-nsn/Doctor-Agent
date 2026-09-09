@@ -1,0 +1,90 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 318,
+  "within_budget": true,
+  "packed_context": {
+    "question": "我右下腹痛，从昨晚开始，吃了止痛药没什么效果，怎么办？",
+    "profile_card": "{\"age_group\":\"adult\",\"sex\":\"male\"}",
+    "history": [
+      {
+        "role": "user",
+        "content": "我昨天晚上开始肚子疼。"
+      },
+      {
+        "role": "assistant",
+        "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"
+      },
+      {
+        "role": "user",
+        "content": "右下腹，大概 7 分，有点恶心，没有便血。"
+      },
+      {
+        "role": "assistant",
+        "content": "有没有吃过药？吃后有没有缓解？"
+      },
+      {
+        "role": "user",
+        "content": "吃了一次止痛药，没什么效果。"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "guideline_abdominal_pain_red_flags",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 48,
+        "content": "{\"主题\":\"右下腹痛风险提示\",\"红旗症状\":[\"持续加重腹痛\",\"发热\",\"反复呕吐\",\"便血\",\"无法行走或腹膜刺激征\"],\"建议\":\"出现红旗症状或疼痛持续加重应及时线下就医\"}"
+      },
+      {
+        "id": "drug_painkiller_warning",
+        "source_type": "drug_label",
+        "evidence_level": "drug_label",
+        "tokens": 47,
+        "content": "{\"主题\":\"止痛药后无效\",\"注意\":[\"不要自行加量\",\"持续疼痛需评估病因\",\"胃肠道不适或过敏需停用并咨询医生\"],\"建议\":\"不要自行调整处方药或重复叠加止痛药\"}"
+      },
+      {
+        "id": "hospital_abdominal_pain_education",
+        "source_type": "hospital",
+        "evidence_level": "C",
+        "tokens": 57,
+        "content": "{\"title\":\"腹痛就医科普\",\"source\":\"hospital\",\"evidence\":\"C\",\"summary\":\"腹痛原因很多，右下腹痛伴恶心、发热或持续加重时需要警惕阑尾炎等急腹症。若疼痛明显或止痛药无效，不建议反复自行用药，应及时就医评估。\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [
+    {
+      "type": "knowledge",
+      "id": "web_low_relevance_diabetes",
+      "reason": "below_similarity_threshold",
+      "relevance": 0.41
+    }
+  ],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "dd1482676a513d06c4264f91",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "guideline_abdominal_pain_red_flags",
+        "level": "miss"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "drug_painkiller_warning",
+        "level": "miss"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "hospital_abdominal_pain_education",
+        "level": "miss"
+      }
+    ]
+  }
+}

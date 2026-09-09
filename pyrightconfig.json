@@ -1,0 +1,6 @@
+{
+  "include": ["src", "scripts", "tests", "program"],
+  "extraPaths": ["src"],
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none"
+}

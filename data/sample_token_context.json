@@ -1,0 +1,69 @@
+{
+  "question": "我右下腹痛，从昨晚开始，吃了止痛药没什么效果，怎么办？",
+  "similarity_threshold": 0.85,
+  "max_knowledge_items": 3,
+  "profile": {
+    "age_group": "adult",
+    "sex": "male",
+    "allergies": [],
+    "chronic_conditions": [],
+    "long_term_medications": []
+  },
+  "history": [
+    {"role": "user", "content": "我昨天晚上开始肚子疼。"},
+    {"role": "assistant", "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"},
+    {"role": "user", "content": "右下腹，大概 7 分，有点恶心，没有便血。"},
+    {"role": "assistant", "content": "有没有吃过药？吃后有没有缓解？"},
+    {"role": "user", "content": "吃了一次止痛药，没什么效果。"}
+  ],
+  "knowledge": [
+    {
+      "id": "guideline_abdominal_pain_red_flags",
+      "title": "急腹症红旗症状识别",
+      "source_type": "guideline",
+      "evidence_level": "A",
+      "relevance": 0.94,
+      "trust_score": 0.95,
+      "freshness_score": 0.85,
+      "structured": {
+        "主题": "右下腹痛风险提示",
+        "红旗症状": ["持续加重腹痛", "发热", "反复呕吐", "便血", "无法行走或腹膜刺激征"],
+        "建议": "出现红旗症状或疼痛持续加重应及时线下就医"
+      }
+    },
+    {
+      "id": "drug_painkiller_warning",
+      "title": "止痛药使用注意事项",
+      "source_type": "drug_label",
+      "evidence_level": "drug_label",
+      "relevance": 0.89,
+      "trust_score": 0.9,
+      "freshness_score": 0.8,
+      "structured": {
+        "主题": "止痛药后无效",
+        "注意": ["不要自行加量", "持续疼痛需评估病因", "胃肠道不适或过敏需停用并咨询医生"],
+        "建议": "不要自行调整处方药或重复叠加止痛药"
+      }
+    },
+    {
+      "id": "hospital_abdominal_pain_education",
+      "title": "腹痛就医科普",
+      "source_type": "hospital",
+      "evidence_level": "C",
+      "relevance": 0.86,
+      "trust_score": 0.72,
+      "freshness_score": 0.65,
+      "content": "腹痛原因很多，右下腹痛伴恶心、发热或持续加重时需要警惕阑尾炎等急腹症。若疼痛明显或止痛药无效，不建议反复自行用药，应及时就医评估。"
+    },
+    {
+      "id": "web_low_relevance_diabetes",
+      "title": "糖尿病饮食建议",
+      "source_type": "web",
+      "evidence_level": "unknown",
+      "relevance": 0.41,
+      "trust_score": 0.3,
+      "freshness_score": 0.5,
+      "content": "糖尿病患者应注意饮食控制。"
+    }
+  ]
+}

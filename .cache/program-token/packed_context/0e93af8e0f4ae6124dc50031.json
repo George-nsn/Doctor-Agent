@@ -1,0 +1,62 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 418,
+  "within_budget": true,
+  "packed_context": {
+    "question": "右下腹痛从昨晚开始，7分疼痛。",
+    "profile_card": "{\"sex\":\"male\",\"allergies\":[\"磺胺\"]}",
+    "history": [],
+    "knowledge": [
+      {
+        "id": "guideline_abdominal_pain_red_flags",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 45,
+        "content": "{\"title\":\"急腹症红旗症状识别\",\"source\":\"guideline\",\"evidence\":\"A\",\"summary\":\"右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。\"}"
+      },
+      {
+        "id": "drug_painkiller_warning",
+        "source_type": "drug_label",
+        "evidence_level": "drug_label",
+        "tokens": 45,
+        "content": "{\"title\":\"止痛药使用注意事项\",\"source\":\"drug_label\",\"evidence\":\"drug_label\",\"summary\":\"止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。\"}"
+      },
+      {
+        "id": "pubmed_39700366",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 254,
+        "content": "{\"title\":\"Acute Abdominal Pain in Children: Evaluation and Management.\",\"source\":\"paper\",\"evidence\":\"B\",\"summary\":\"Acute abdominal pain in children is a common presentation in the clinic and emergency department settings and accounts for up to 10% of childhood emergency department visits. Determining the appropriate disposition of abdominal pain in children can be challenging. The differential diagnosis of acute abdominal pain, including gastroenteritis, constipation, urinary tract infection, acute appendicitis, tubo-ovarian abscess, testicular torsion, and volvulus, and the diagnostic approach vary by age. Most causes of acute abdominal pain in children are self-limited. Symptoms and signs that indicate referral for surgery include pain that is severe, localized, and increases in intensity; pain preceding vomiting; bilious vomiting; hematochezia; guarding; and rigidity. Physical examination findings suggestive of acute appendicitis in children include decreased or absent bowel sounds, psoas sign, obturator sign, Rovsing sign, and right lower quadrant rebound tenderness. Initial laboratory evaluation may include urinalysis; complete blood cell count; human chorionic gonadotropin, lactate, and C-reactive protein levels; and a comprehensive metabolic profile. Ultrasonography, including point-of-care ultrasonography, for the evaluation of acute abdominal pain in children is the preferred initial imaging modality due to its low cost, ease of use, and lack of ionizing radiation. In addition to laboratory evaluation and imaging, children with red-flag or high-risk symptoms should be referred for urgent surgical consultation. Validated scoring systems, such as the Pediatric Appendicitis Score, can be used to help determine the patient's risk of appendicitis.\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "0e93af8e0f4ae6124dc50031",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "guideline_abdominal_pain_red_flags",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "drug_painkiller_warning",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "pubmed_39700366",
+        "level": "l1_memory"
+      }
+    ]
+  }
+}

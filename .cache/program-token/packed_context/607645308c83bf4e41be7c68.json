@@ -1,0 +1,144 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1100,
+    "history": 700,
+    "reserved": 200
+  },
+  "token_estimate": 1474,
+  "within_budget": true,
+  "packed_context": {
+    "question": "右下腹痛从昨晚开始，7分疼痛。",
+    "profile_card": "{\"age\":\"30岁\",\"sex\":\"male\",\"allergies\":[\"磺胺\"]}",
+    "session_state_card": {},
+    "history": [],
+    "recalled_cold_history": [],
+    "knowledge_chunks": [
+      {
+        "id": "guideline_abdominal_pain_red_flags",
+        "title": "急腹症红旗症状识别",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 30,
+        "content": "右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。",
+        "chunk": {
+          "chunk_id": "guideline_abdominal_pain_red_flags",
+          "title": "急腹症红旗症状识别",
+          "source_type": "guideline",
+          "evidence_level": "A",
+          "content": "右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。"
+        }
+      },
+      {
+        "id": "drug_painkiller_warning",
+        "title": "止痛药使用注意事项",
+        "source_type": "drug_label",
+        "evidence_level": "drug_label",
+        "tokens": 29,
+        "content": "止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。",
+        "chunk": {
+          "chunk_id": "drug_painkiller_warning",
+          "title": "止痛药使用注意事项",
+          "source_type": "drug_label",
+          "evidence_level": "drug_label",
+          "content": "止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。"
+        }
+      },
+      {
+        "id": "pubmed_37327158",
+        "title": "Acute Abdominal Pain in Adults: Evaluation and Diagnosis.",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 235,
+        "content": "Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available.",
+        "chunk": {
+          "chunk_id": "pubmed_37327158",
+          "title": "Acute Abdominal Pain in Adults: Evaluation and Diagnosis.",
+          "source_type": "paper",
+          "evidence_level": "B",
+          "content": "Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available."
+        }
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "guideline_abdominal_pain_red_flags",
+        "title": "急腹症红旗症状识别",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 30,
+        "content": "右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。",
+        "chunk": {
+          "chunk_id": "guideline_abdominal_pain_red_flags",
+          "title": "急腹症红旗症状识别",
+          "source_type": "guideline",
+          "evidence_level": "A",
+          "content": "右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。"
+        }
+      },
+      {
+        "id": "drug_painkiller_warning",
+        "title": "止痛药使用注意事项",
+        "source_type": "drug_label",
+        "evidence_level": "drug_label",
+        "tokens": 29,
+        "content": "止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。",
+        "chunk": {
+          "chunk_id": "drug_painkiller_warning",
+          "title": "止痛药使用注意事项",
+          "source_type": "drug_label",
+          "evidence_level": "drug_label",
+          "content": "止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。"
+        }
+      },
+      {
+        "id": "pubmed_37327158",
+        "title": "Acute Abdominal Pain in Adults: Evaluation and Diagnosis.",
+        "source_type": "paper",
+        "evidence_level": "B",
+        "tokens": 235,
+        "content": "Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available.",
+        "chunk": {
+          "chunk_id": "pubmed_37327158",
+          "title": "Acute Abdominal Pain in Adults: Evaluation and Diagnosis.",
+          "source_type": "paper",
+          "evidence_level": "B",
+          "content": "Acute abdominal pain, defined as nontraumatic abdominal pain lasting fewer than seven days, is a common presenting concern with a broad differential diagnosis. The most common causes are gastroenteritis and nonspecific abdominal pain, followed by cholelithiasis, urolithiasis, diverticulitis, and appendicitis. Extra-abdominal causes such as respiratory infections and abdominal wall pain should be considered. Pain location, history, and examination findings help guide the workup after ensuring hemodynamic stability. Recommended tests may include a complete blood count, C-reactive protein, hepatobiliary markers, electrolytes, creatinine, glucose, urinalysis, lipase, and pregnancy testing. Several diagnoses, such as cholecystitis, appendicitis, and mesenteric ischemia, cannot be confirmed clinically and typically require imaging. Conditions such as urolithiasis and diverticulitis may be diagnosed clinically in certain cases. Imaging studies are chosen based on the location of pain and index of suspicion for specific etiologies. Computed tomography with intravenous contrast media is often chosen for generalized abdominal pain, left upper quadrant pain, and lower abdominal pain. Ultrasonography is the study of choice for right upper quadrant pain. Point-of-care ultrasonography can aid in the prompt diagnosis of several etiologies of acute abdominal pain, including cholelithiasis, urolithiasis, and appendicitis. In patients who have female reproductive organs, diagnoses such as ectopic pregnancy, pelvic inflammatory disease, and adnexal torsion should be considered. If ultrasonography results are inconclusive in pregnant patients, magnetic resonance imaging is preferred over computed tomography when available."
+        }
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "history_metadata": {
+    "compression_triggered": false,
+    "protected_turn_count": 0,
+    "cold_turn_count": 0,
+    "post_compression_tokens": 0,
+    "vector_store_required": false,
+    "recalled_cold_history": []
+  },
+  "cold_history_for_vector_store": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "607645308c83bf4e41be7c68",
+    "events": [
+      {
+        "type": "compressed_knowledge_chunk",
+        "id": "guideline_abdominal_pain_red_flags",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge_chunk",
+        "id": "drug_painkiller_warning",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge_chunk",
+        "id": "pubmed_37327158",
+        "level": "l1_memory"
+      }
+    ]
+  }
+}

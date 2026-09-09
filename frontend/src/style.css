@@ -1,0 +1,233 @@
+/* ===== Corporate Trust (Modern Enterprise SaaS) Design Tokens & Utilities ===== */
+:root {
+  --bg: #F8FAFC;
+  --surface: #FFFFFF;
+  --surface-raised: #FFFFFF;
+  --primary: #4F46E5;
+  --primary-hover: #4338CA;
+  --primary-light: #EEF2FF;
+  --secondary: #7C3AED;
+  --secondary-hover: #6D28D9;
+  --secondary-light: #F5F3FF;
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+  --accent: #10B981;
+  --accent-light: #ECFDF5;
+  --accent-teal: #0D9488;
+  --accent-emerald: #10B981;
+  --accent-rose: #EF4444;
+  --accent-rose-light: #FEF2F2;
+  --accent-amber: #F59E0B;
+  --accent-amber-light: #FFFBEB;
+  --accent-blue: #3B82F6;
+  --accent-blue-light: #EFF6FF;
+  --border: #E2E8F0;
+  --border-subtle: #F1F5F9;
+  --border-focus: #A5B4FC;
+
+  --grad: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+  --grad-hover: linear-gradient(135deg, #4338CA 0%, #6D28D9 100%);
+  --grad-light: linear-gradient(135deg, #EEF2FF 0%, #F5F3FF 100%);
+  --grad-emerald: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  --grad-rose: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+  --grad-amber: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+
+  --shadow-soft: 0 4px 20px -2px rgba(79, 70, 229, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 12px 28px -5px rgba(79, 70, 229, 0.14), 0 8px 10px -6px rgba(79, 70, 229, 0.06);
+  --shadow-card: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 4px 16px -2px rgba(79, 70, 229, 0.06);
+  --shadow-btn: 0 4px 14px 0 rgba(79, 70, 229, 0.30);
+  --shadow-glow: 0 0 20px rgba(79, 70, 229, 0.45);
+
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Element Plus Theme Variables Override */
+  --el-color-primary: #4F46E5;
+  --el-color-primary-light-3: #818CF8;
+  --el-color-primary-light-5: #A5B4FC;
+  --el-color-primary-light-7: #C7D2FE;
+  --el-color-primary-light-8: #E0E7FF;
+  --el-color-primary-light-9: #EEF2FF;
+  --el-color-primary-dark-2: #3730A3;
+  --el-color-success: #10B981;
+  --el-color-warning: #F59E0B;
+  --el-color-danger: #EF4444;
+  --el-color-info: #64748B;
+  --el-bg-color: #FFFFFF;
+  --el-bg-color-page: #F8FAFC;
+  --el-text-color-primary: #0F172A;
+  --el-text-color-regular: #334155;
+  --el-text-color-secondary: #64748B;
+  --el-border-color: #E2E8F0;
+  --el-border-color-light: #F1F5F9;
+  --el-border-color-lighter: #F8FAFC;
+  --el-border-color-extra-light: #F8FAFC;
+  --el-card-border-color: #E2E8F0;
+  --el-card-bg-color: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Gradient Text Signature */
+.grad-text {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* ===== Corporate Trust Card & Surface Utilities ===== */
+.neu-card, .ent-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow-card);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  word-break: break-word;
+  position: relative;
+}
+
+.neu-card:hover, .ent-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  border-color: #CBD5E1;
+}
+
+.neu-extruded, .neu-extruded-lg, .neu-extruded-sm {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-card);
+}
+
+.neu-inset, .neu-inset-sm {
+  background: #F8FAFC;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.neu-inset-deep {
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+}
+
+/* ===== Corporate Trust Pills & Badges ===== */
+.neu-pill, .ent-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  transition: all 0.2s ease;
+}
+
+.neu-pill:hover, .ent-pill:hover {
+  border-color: #CBD5E1;
+  color: var(--text-main);
+}
+
+.neu-glow-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.neu-glow-dot.teal {
+  background: var(--accent-teal);
+  box-shadow: 0 0 8px rgba(13, 148, 136, 0.5);
+}
+
+.neu-glow-dot.purple {
+  background: var(--primary);
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.6);
+}
+
+.neu-glow-dot.emerald {
+  background: var(--accent-emerald);
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.6);
+}
+
+.neu-glow-dot.rose {
+  background: var(--accent-rose);
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+}
+
+.neu-glow-dot.amber {
+  background: var(--accent-amber);
+  box-shadow: 0 0 8px rgba(245, 158, 11, 0.6);
+}
+
+/* ===== Atmospheric Background Blobs ===== */
+.ambient-blobs {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+}
+
+.blob-indigo {
+  background: rgba(99, 102, 241, 0.14);
+}
+
+.blob-violet {
+  background: rgba(167, 139, 250, 0.16);
+}
+
+.blob-teal {
+  background: rgba(45, 212, 191, 0.10);
+}
+
+/* ===== Custom Minimal Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

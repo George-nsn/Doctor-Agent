@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "source_slug": "cn_nhc",
+      "external_id": "replace-with-official-document-id",
+      "title": "示例：国家卫生主管部门正式诊疗指南",
+      "document_type": "clinical_guideline",
+      "ingestion_mode": "metadata_only",
+      "rights_status": "record_specific_review_required",
+      "source_url": "https://www.nhc.gov.cn/replace-with-official-page",
+      "published_at": "2026-01-01",
+      "version": "2026",
+      "authority_tier": "A1",
+      "evidence_grade": "guideline_specific",
+      "department": "internal_medicine",
+      "profile_type": "guideline",
+      "profile": {
+        "specialty": "internal_medicine",
+        "target_population": "请按指南填写",
+        "disease_scope": ["请按指南填写"],
+        "classification_criteria": null,
+        "diagnostic_criteria": null,
+        "risk_stratification": null,
+        "treatment_recommendations": null,
+        "follow_up_requirements": null,
+        "referral_indications": null,
+        "red_flags": null,
+        "extraction_status": "metadata_only"
+      }
+    },
+    {
+      "source_slug": "cn_nmpa",
+      "external_id": "replace-with-approval-number",
+      "title": "示例：国药准字药品官方说明书",
+      "document_type": "drug_label",
+      "ingestion_mode": "metadata_only",
+      "rights_status": "record_specific_review_required",
+      "source_url": "https://www.nmpa.gov.cn/replace-with-official-record",
+      "authority_tier": "A1",
+      "evidence_grade": "regulatory_label",
+      "department": "pharmacology",
+      "profile_type": "drug",
+      "profile": {
+        "approval_number": "国药准字XXXXXXXX",
+        "generic_name": "药品通用名",
+        "brand_names": [],
+        "ingredients": null,
+        "dosage_form": null,
+        "indications": null,
+        "dosage_and_administration": null,
+        "contraindications": null,
+        "adverse_reactions": null,
+        "drug_interactions": null,
+        "pregnancy_and_lactation": null,
+        "pediatric_use": null,
+        "geriatric_use": null,
+        "hepatic_renal_impairment": null,
+        "storage": null,
+        "manufacturer": null,
+        "approval_status": "待核验",
+        "extraction_status": "metadata_only"
+      }
+    },
+    {
+      "source_slug": "licensed_medical_textbooks",
+      "external_id": "licensed-textbook-example",
+      "title": "示例：已获授权的临床医学教材章节",
+      "document_type": "medical_textbook_chapter",
+      "ingestion_mode": "metadata_only",
+      "rights_status": "license_proof_required",
+      "source_url": "local://licensed-copy",
+      "authority_tier": "C1",
+      "evidence_grade": "background_mechanism",
+      "department": "internal_medicine",
+      "profile_type": "textbook",
+      "profile": {
+        "book_title": "内科学/外科学/妇产科学/儿科学等",
+        "edition": "第9版或第10版",
+        "volume": null,
+        "isbn": null,
+        "publisher": "请填写出版社",
+        "authors": [],
+        "subject": "请填写学科",
+        "chapter_title": "请填写章节",
+        "rights_basis": "必须填写授权合同、许可声明或公共领域依据",
+        "allowed_scope": "metadata_only",
+        "mechanism_summary": null,
+        "extraction_status": "metadata_only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+﻿:START_ID(Entity),:END_ID(Entity),:TYPE,confidence:float,review_status,evidence_quote,extraction_method,document_id:int,document_title,source_url,page_number:int,section_title
+16,39,HAS_ADVERSE_EFFECT,0.95,approved,"Indications and usage: Uses for the temporary relief of minor aches and pains or as recommended by your doctor.
+
+Because of its delayed action, this product will not provide fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for safety coated 81 mg aspirin
+Warnings: Warnings Reye's syndrome : Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product.
+
+When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.
+
+Allergy alert : Aspirin may cause a severe allergic reaction, which may include: hives facial swelling shock asthma (wheezing) Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding.",curated_level_a_graph,15,openFDA drug label: ASPIRIN,https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22ASPIRIN%22&limit=1,,
+29,39,HAS_ADVERSE_EFFECT,0.95,approved,"Indications and usage: Uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps the common cold muscular aches minor pain of arthritis temporarily reduces fever
+Warnings: Warnings Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin.
+
+Symptoms may include: rash facial swelling asthma (wheezing) hives skin reddening shock blisters If an allergic reaction occurs, stop use and seek medical help right away.
+
+Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding.
+
+The chance is higher if you: take more or for a longer time than directed take a blood thinning (anticoagulant) or steroid drug have had stomach ulcers or bleeding problems have 3 or more alcoholic drinks every day while using this product are age 60 or older take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] Heart attack and stroke warn",curated_level_a_graph,12,openFDA drug label: IBUPROFEN,https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22IBUPROFEN%22&limit=1,,
+12,33,HAS_RED_FLAG,0.95,approved,"Your abdomen extends from below your chest to your groin.
+
+Some people call it the stomach, but your abdomen contains many other important organs.
+
+Pain in the abdomen can come from any one of them.
+
+The pain may start somewhere else, such as your chest.
+
+Severe pain doesn't always mean a serious problem.
+
+Nor does mild pain mean a problem is not serious.
+
+Call your health care provider if mild pain lasts a week or more or if you have pain with other symptoms.
+
+Get medical help immediately if: You have abdominal pain that is sudden and sharp You also have pain in your chest, neck or shoulder You're vomiting blood or have blood in your stool Your abdomen is stiff, hard and tender to touch You can't move your bowels, especially if you're also vomiting",curated_level_a_graph,4,MedlinePlus: Abdominal Pain,https://medlineplus.gov/abdominalpain.html,,
+12,35,HAS_RED_FLAG,0.95,approved,"Your abdomen extends from below your chest to your groin.
+
+Some people call it the stomach, but your abdomen contains many other important organs.
+
+Pain in the abdomen can come from any one of them.
+
+The pain may start somewhere else, such as your chest.
+
+Severe pain doesn't always mean a serious problem.
+
+Nor does mild pain mean a problem is not serious.
+
+Call your health care provider if mild pain lasts a week or more or if you have pain with other symptoms.
+
+Get medical help immediately if: You have abdominal pain that is sudden and sharp You also have pain in your chest, neck or shoulder You're vomiting blood or have blood in your stool Your abdomen is stiff, hard and tender to touch You can't move your bowels, especially if you're also vomiting",curated_level_a_graph,4,MedlinePlus: Abdominal Pain,https://medlineplus.gov/abdominalpain.html,,
+15,20,HAS_RED_FLAG,0.95,approved,"Having a pain in your chest can be scary.
+
+It does not always mean that you are having a heart attack .
+
+There can be many other causes, including: Other heart problems, such as angina Panic attacks Digestive problems, such as heartburn or esophagus disorders Sore muscles Lung diseases, such as pneumonia , pleurisy , or pulmonary embolism Costochondritis - an inflammation of joints in your chest Some of these problems can be serious.
+
+Get immediate medical care if you have chest pain that does not go away, crushing pain or pressure in the chest, or chest pain along with nausea, sweating, dizziness or shortness of breath.
+
+Treatment depends on the cause of the pain.",curated_level_a_graph,6,MedlinePlus: Chest Pain,https://medlineplus.gov/chestpain.html,,
+15,21,HAS_RED_FLAG,0.95,approved,"Having a pain in your chest can be scary.
+
+It does not always mean that you are having a heart attack .
+
+There can be many other causes, including: Other heart problems, such as angina Panic attacks Digestive problems, such as heartburn or esophagus disorders Sore muscles Lung diseases, such as pneumonia , pleurisy , or pulmonary embolism Costochondritis - an inflammation of joints in your chest Some of these problems can be serious.
+
+Get immediate medical care if you have chest pain that does not go away, crushing pain or pressure in the chest, or chest pain along with nausea, sweating, dizziness or shortness of breath.
+
+Treatment depends on the cause of the pain.",curated_level_a_graph,6,MedlinePlus: Chest Pain,https://medlineplus.gov/chestpain.html,,
+15,18,MAY_INDICATE,0.95,approved,"Having a pain in your chest can be scary.
+
+It does not always mean that you are having a heart attack .
+
+There can be many other causes, including: Other heart problems, such as angina Panic attacks Digestive problems, such as heartburn or esophagus disorders Sore muscles Lung diseases, such as pneumonia , pleurisy , or pulmonary embolism Costochondritis - an inflammation of joints in your chest Some of these problems can be serious.
+
+Get immediate medical care if you have chest pain that does not go away, crushing pain or pressure in the chest, or chest pain along with nausea, sweating, dizziness or shortness of breath.
+
+Treatment depends on the cause of the pain.",curated_level_a_graph,6,MedlinePlus: Chest Pain,https://medlineplus.gov/chestpain.html,,
+15,19,MAY_INDICATE,0.95,approved,"Having a pain in your chest can be scary.
+
+It does not always mean that you are having a heart attack .
+
+There can be many other causes, including: Other heart problems, such as angina Panic attacks Digestive problems, such as heartburn or esophagus disorders Sore muscles Lung diseases, such as pneumonia , pleurisy , or pulmonary embolism Costochondritis - an inflammation of joints in your chest Some of these problems can be serious.
+
+Get immediate medical care if you have chest pain that does not go away, crushing pain or pressure in the chest, or chest pain along with nausea, sweating, dizziness or shortness of breath.
+
+Treatment depends on the cause of the pain.",curated_level_a_graph,6,MedlinePlus: Chest Pain,https://medlineplus.gov/chestpain.html,,
+37,28,MAY_INDICATE,0.95,approved,"The appendix is a small, tube-like organ attached to the first part of the large intestine.
+
+It is located in the lower right part of the abdomen.
+
+It has no known function.
+
+A blockage inside of the appendix causes appendicitis.
+
+The blockage leads to increased pressure, problems with blood flow, and inflammation.
+
+If the blockage is not treated, the appendix can burst and spread infection into the abdomen.
+
+This causes a condition called peritonitis .
+
+The main symptom is pain in the abdomen, often on the right side.
+
+It is usually sudden and gets worse over time.
+
+Other symptoms may include: Swelling in the abdomen Loss of appetite Nausea and vomiting Constipation or diarrhea Inability to pass gas Low fever Not everyone with appendicitis has all these symptoms.
+
+Appendicitis is a medical emergency.
+
+Treatment almost always involves removing the appendix.
+
+Anyone can get appendicitis, but it is more common among people 10 to 30 years old.
+
+NIH: National Institute of Diabetes and Dige",curated_level_a_graph,5,MedlinePlus: Appendicitis,https://medlineplus.gov/appendicitis.html,,
+24,30,REQUIRES_CAUTION,0.95,approved,"Indications and usage: Uses temporarily relieves minor aches and pains due to: headache the common cold backache minor pain of arthritis toothache muscular aches premenstrual and menstrual cramps temporarily reduces fever
+Warnings: Warnings Liver warning: This product contains acetaminophen.
+
+Severe liver damage may occur if you take more than 4,000 mg of acetaminophen in 24 hours with other drugs containing acetaminophen 3 or more alcoholic drinks every day while using this product Allergy alert: Acetaminophen may cause severe skin reactions.
+
+Symptoms may include: skin reddening blisters rash If a skin reaction occurs, stop use and seek medical help right away.
+
+Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription).
+
+If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.
+
+Ask a doctor before use if you have liver disease.
+
+Ask a d",curated_level_a_graph,13,openFDA drug label: ACETAMINOPHEN,https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22ACETAMINOPHEN%22&limit=1,,
+29,43,REQUIRES_CAUTION,0.95,approved,"Indications and usage: Uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps the common cold muscular aches minor pain of arthritis temporarily reduces fever
+Warnings: Warnings Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin.
+
+Symptoms may include: rash facial swelling asthma (wheezing) hives skin reddening shock blisters If an allergic reaction occurs, stop use and seek medical help right away.
+
+Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding.
+
+The chance is higher if you: take more or for a longer time than directed take a blood thinning (anticoagulant) or steroid drug have had stomach ulcers or bleeding problems have 3 or more alcoholic drinks every day while using this product are age 60 or older take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] Heart attack and stroke warn",curated_level_a_graph,12,openFDA drug label: IBUPROFEN,https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22IBUPROFEN%22&limit=1,,

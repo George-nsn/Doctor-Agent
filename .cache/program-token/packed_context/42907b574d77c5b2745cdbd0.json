@@ -1,0 +1,50 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 150,
+  "within_budget": true,
+  "packed_context": {
+    "question": "我胸口压榨痛还出汗，喘不上气。",
+    "profile_card": "{\"age_group\":\"adult\",\"sex\":\"male\"}",
+    "history": [],
+    "knowledge": [
+      {
+        "id": "guideline_abdominal_pain_red_flags",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 45,
+        "content": "{\"title\":\"急腹症红旗症状识别\",\"source\":\"guideline\",\"evidence\":\"A\",\"summary\":\"右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。\"}"
+      },
+      {
+        "id": "drug_painkiller_warning",
+        "source_type": "drug_label",
+        "evidence_level": "drug_label",
+        "tokens": 45,
+        "content": "{\"title\":\"止痛药使用注意事项\",\"source\":\"drug_label\",\"evidence\":\"drug_label\",\"summary\":\"止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "42907b574d77c5b2745cdbd0",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "guideline_abdominal_pain_red_flags",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "drug_painkiller_warning",
+        "level": "l2_disk"
+      }
+    ]
+  }
+}

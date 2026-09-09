@@ -1,0 +1,1 @@
+"""Medical embedding placeholder submodule."""

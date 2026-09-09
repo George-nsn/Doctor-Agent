@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "total": 2000,
+    "knowledge": 1200,
+    "history": 600,
+    "reserved": 200
+  },
+  "token_estimate": 337,
+  "within_budget": true,
+  "packed_context": {
+    "question": "我右下腹痛，从昨晚开始，大概7分，吃了一次止痛药没什么效果，有点恶心，没有便血。",
+    "profile_card": "{\"age_group\":\"adult\",\"sex\":\"male\"}",
+    "history": [
+      {
+        "role": "user",
+        "content": "我昨天晚上开始肚子疼。"
+      },
+      {
+        "role": "assistant",
+        "content": "请问疼痛具体在哪个位置？程度大概几分？有没有发热、呕吐或便血？"
+      },
+      {
+        "role": "user",
+        "content": "右下腹，大概7分，有点恶心，没有便血。"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "guideline_abdominal_pain_red_flags",
+        "source_type": "guideline",
+        "evidence_level": "A",
+        "tokens": 45,
+        "content": "{\"title\":\"急腹症红旗症状识别\",\"source\":\"guideline\",\"evidence\":\"A\",\"summary\":\"右下腹痛伴持续加重、发热、反复呕吐、便血、无法行走或明显腹膜刺激征时，应及时线下就医评估。\"}"
+      },
+      {
+        "id": "drug_painkiller_warning",
+        "source_type": "drug_label",
+        "evidence_level": "drug_label",
+        "tokens": 45,
+        "content": "{\"title\":\"止痛药使用注意事项\",\"source\":\"drug_label\",\"evidence\":\"drug_label\",\"summary\":\"止痛药使用后无效或症状加重时，不建议自行加量或叠加用药，应评估病因并咨询医生或药师。\"}"
+      },
+      {
+        "id": "neo4j_transh_expansion",
+        "source_type": "knowledge_graph",
+        "evidence_level": "B",
+        "tokens": 102,
+        "content": "{\"title\":\"Neo4j + TransH 图谱扩展\",\"source\":\"knowledge_graph\",\"evidence\":\"B\",\"summary\":\"图谱扩展提示：[{\\\"head\\\": \\\"止痛药\\\", \\\"relation\\\": \\\"REQUIRES_CAUTION\\\", \\\"tail\\\": \\\"用药无效\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}, {\\\"head\\\": \\\"右下腹痛\\\", \\\"relation\\\": \\\"BELONGS_TO_DEPARTMENT\\\", \\\"tail\\\": \\\"消化科\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}, {\\\"head\\\": \\\"右下腹痛\\\", \\\"relation\\\": \\\"HAS_RED_FLAG\\\", \\\"tail\\\": \\\"持续加重腹痛\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}, {\\\"head\\\": \\\"右下腹痛\\\", \\\"relation\\\": \\\"HAS_RED_FLAG\\\", \\\"tail\\\": \\\"发热\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}, {\\\"head\\\": \\\"右下腹痛\\\", \\\"relation\\\": \\\"HAS_RED_FLAG\\\", \\\"tail\\\": \\\"便血\\\", \\\"source_type\\\": \\\"neo4j_transh\\\", \\\"relevance\\\": 0.88}]\"}"
+      }
+    ],
+    "safety_note": "Medical advice must be evidence-backed; do not diagnose or adjust prescription medication."
+  },
+  "dropped_items": [],
+  "cache": {
+    "hit": false,
+    "level": "miss",
+    "key": "7393498b1d905a8ee9a6e233",
+    "events": [
+      {
+        "type": "compressed_knowledge",
+        "id": "guideline_abdominal_pain_red_flags",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "drug_painkiller_warning",
+        "level": "l2_disk"
+      },
+      {
+        "type": "compressed_knowledge",
+        "id": "neo4j_transh_expansion",
+        "level": "miss"
+      }
+    ]
+  }
+}

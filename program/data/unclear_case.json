@@ -1,0 +1,9 @@
+{
+  "session_id": "demo-session-unclear",
+  "user_id": "demo-user",
+  "message": "我肚子疼怎么办？",
+  "profile": {
+    "age_group": "adult"
+  },
+  "history": []
+}

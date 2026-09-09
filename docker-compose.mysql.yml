@@ -1,0 +1,27 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: agentic-rag-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root_dev_only
+      MYSQL_DATABASE: agentic_rag_medical
+      MYSQL_USER: agentic_rag
+      MYSQL_PASSWORD: agentic_rag_dev
+      TZ: Asia/Shanghai
+    ports:
+      - "3306:3306"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_0900_ai_ci
+      - --default-time-zone=+08:00
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uagentic_rag -pagentic_rag_dev --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    volumes:
+      - agentic_rag_mysql_data:/var/lib/mysql
+
+volumes:
+  agentic_rag_mysql_data:

@@ -1,0 +1,24 @@
+{
+  "retrieval_model": {
+    "repo_id": "BAAI/bge-small-zh-v1.5",
+    "runtime": "FastEmbed ONNX",
+    "dimension": 512,
+    "approx_size_gb": 0.09,
+    "status": "downloaded_and_verified",
+    "purpose": "Chinese medical knowledge vector retrieval"
+  },
+  "optional_generation_models": [
+    {
+      "repo_id": "Irathernotsay/qwen2-1.5B-medical_qa-Finetune",
+      "approx_size_gb": 2.89,
+      "status": "optional_not_downloaded",
+      "purpose": "Local Chinese medical QA generation; review model card/license/quality before use"
+    },
+    {
+      "repo_id": "FreedomIntelligence/HuatuoGPT2-7B-4bits",
+      "approx_size_gb": 5.06,
+      "status": "optional_not_downloaded",
+      "purpose": "Larger local Chinese medical generation model; requires more memory and safety evaluation"
+    }
+  ]
+}

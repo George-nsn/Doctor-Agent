@@ -1,0 +1,8 @@
+{"id":"q001","question":"RAG 系统为什么能降低大模型幻觉？","category":"rag-basic","difficulty":"easy","expected_points":["外部知识库","检索上下文","可溯源","非参数化知识"],"expected_sources":["RAG技术体系综述"]}
+{"id":"q002","question":"混合检索相比单一向量检索有什么优势？","category":"retrieval","difficulty":"medium","expected_points":["关键词精确匹配","语义泛化","BM25","稠密向量","RRF"],"expected_sources":["RAG技术体系综述"]}
+{"id":"q003","question":"如何用 RAG Triad 评估一个知识库问答系统？","category":"evaluation","difficulty":"medium","expected_points":["上下文相关性","忠实度","答案相关性","LLM-as-judge"],"expected_sources":["RAG技术体系综述"]}
+{"id":"q004","question":"如果检索结果相关但答案仍然胡编，应该优先优化哪个环节？","category":"failure-analysis","difficulty":"medium","expected_points":["生成提示词","忠实度","引用证据","拒答策略"],"expected_sources":["RAG技术体系综述"]}
+{"id":"q005","question":"GraphRAG 更适合处理哪类问题？","category":"graph-rag","difficulty":"medium","expected_points":["关系推理","多跳推理","实体关系","子图"],"expected_sources":["RAG技术体系综述"]}
+{"id":"q006","question":"面向大模型平台后端，RAG 服务上线要考虑哪些稳定性措施？","category":"backend-sla","difficulty":"hard","expected_points":["超时","重试","缓存","限流","日志","监控"],"expected_sources":["project-plan"]}
+{"id":"q007","question":"多 Agent 评测 harness 中 QueryDesigner、RAGClient 和 Judge 分别负责什么？","category":"agent-harness","difficulty":"medium","expected_points":["生成评测问题","调用 RAG 服务","评估答案","聚合报告"],"expected_sources":["project-plan"]}
+{"id":"q008","question":"为什么本项目选择 RAGFlow 和 CrewAI，而不是从零写一个平台？","category":"project-choice","difficulty":"medium","expected_points":["已有开源基底","RAGFlow","CrewAI","10 天时间","面试可讲"],"expected_sources":["project-plan"]}
