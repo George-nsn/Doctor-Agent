@@ -13,6 +13,7 @@ It is designed around the planned RAGFlow + CrewAI story:
 - LangChain `RunnableLambda` nodes wrap each workflow step.
 - The harness outputs JSONL, CSV, and Markdown reports for interview-ready analysis.
 - The first implementation has a mock RAG client, so the smoke test works without API keys or Docker.
+<img width="1912" height="914" alt="image" src="https://github.com/user-attachments/assets/5b969d84-a6aa-4674-a601-781ecf01e86f" />
 
 ## Project Flowchart
 
